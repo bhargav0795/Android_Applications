@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.akhilajana.group22_homework4.TriviaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            android:id="@+id/questionNo"
+            android:background="@drawable/back"
+            android:layout_weight="0.5"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:id="@+id/timer"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/back"
+        android:id="@+id/questionImg"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:visibility="gone"
+        android:id="@+id/progressBar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/choiceGroup">
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:id="@+id/btnQuit"
+            android:text="@string/btnQuit"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:id="@+id/btnNext"
+            android:text="@string/btnNext"/>
+    </LinearLayout>
+
+
+</android.widget.LinearLayout>

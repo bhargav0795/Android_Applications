@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Group22_Homework4</string>
+    <string name="title">Welcome to Trivia App</string>
+    <string name="loadTrivia">Loading Trivia..</string>
+    <string name="readyTrivia">Trivia Activity</string>
+    <string name="btnExit">Exit</string>
+    <string name="btnStart">Start Trivia</string>
+    <string name="btnQuit">Quit</string>
+    <string name="btnNext">Next</string>
+    <string name="timeLeft">Time Left:</string>
+    <string name="seconds">seconds</string>
+    <string name="questionNo">Q</string>
+
+</resources>

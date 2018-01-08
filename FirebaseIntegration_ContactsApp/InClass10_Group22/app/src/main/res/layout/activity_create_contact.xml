@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.akhilajana.inclass10_group22.CreateContactActivity">
+
+    <ImageView
+        android:id="@+id/buttonAddContactImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/default_image" />
+
+    <EditText
+        android:id="@+id/editAddContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/editAddContactEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail" />
+
+    <EditText
+        android:id="@+id/editAddContactPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Phone Number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Department"
+        android:textSize="20dp" />
+
+
+    <RadioGroup
+        android:id="@+id/radioContactDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioSIS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIS" />
+
+        <RadioButton
+            android:id="@+id/radioCS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CS" />
+
+        <RadioButton
+            android:id="@+id/radioBIO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BIO" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonContactSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Submit" />
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.bhargavnallani.coursemanager.Fragment_register">
+
+    <LinearLayout
+        android:id="@+id/registrationContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/add_photo"
+            android:id="@+id/registerProfilePicture"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/registerFirstName"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/lightblue"
+            android:id="@+id/registerFirstName"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/registerLastName"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/lightblue"
+            android:id="@+id/registerLastName"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/user_name"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/lightblue"
+            android:id="@+id/registerUserName"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password1"
+            android:inputType="textPassword"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/lightblue"
+            android:id="@+id/registerPassword"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:text="@string/register"
+            android:id="@+id/buttonRegister"/>
+
+    </LinearLayout>
+
+</FrameLayout>

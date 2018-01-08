@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.akhilajana.inclass10_group22.SelectAvatarActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the Avatar"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:padding="18dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/avatarf1"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/avatar_f_1"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/avatarm1"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/avatar_m_1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/avatarf2"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/avatar_f_2"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avatar_m_2"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:id="@+id/avatarm2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/avatarf3"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/avatar_f_3"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/avatarm3"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/avatar_m_3"/>
+
+    </LinearLayout>
+
+</LinearLayout>
